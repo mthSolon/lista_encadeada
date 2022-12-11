@@ -30,7 +30,7 @@ class Node {
   }
 }
 
-//Criação do nó na lista:
+//Criação nó na lista:
 void criar_no(Node? no) {
   if (no?.prox == null) {
     Node novoNo = Node();
